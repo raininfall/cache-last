@@ -1,0 +1,33 @@
+{
+  "name": "cache-last",
+  "version": "0.0.2",
+  "description": "cache last result with same input",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"no test\"",
+    "compile": "babel -d lib/ src/",
+    "prepublish": "npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raininfall/cache-last.git"
+  },
+  "keywords": [
+    "cache",
+    "function"
+  ],
+  "author": "raininfall <onlycursedname@gmail.com> (https://github.com/raininfall)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raininfall/cache-last/issues"
+  },
+  "homepage": "https://github.com/raininfall/cache-last#readme",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-class-properties": "^6.23.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.24.0"
+  }
+}
